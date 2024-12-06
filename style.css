@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: #f8b400;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background: #ffd966;
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1 {
+    font-size: 2.5em;
+}
+.hero .btn {
+    background: #f36;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.contact form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact label {
+    margin: 5px 0;
+}
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact button {
+    background: #f8b400;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
